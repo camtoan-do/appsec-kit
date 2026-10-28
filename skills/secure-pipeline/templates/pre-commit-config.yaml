@@ -1,0 +1,12 @@
+# Same checks as CI, on the developer's machine before the commit exists.
+# Setup: pip install pre-commit (or brew install pre-commit) && pre-commit install
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/semgrep/pre-commit
+    rev: v1.182.0
+    hooks:
+      - id: semgrep
+        args: ["--config", "p/default", "--metrics=off", "--error"]

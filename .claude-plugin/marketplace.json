@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "appsec-kit",
+  "description": "AppSec / DevSecOps workflow skills for Claude Code.",
+  "owner": { "name": "camtoando" },
+  "plugins": [
+    {
+      "name": "appsec-kit",
+      "description": "Scan and triage, secure CI pipeline, STRIDE threat modeling, and a hands-on AppSec tutor.",
+      "source": "./",
+      "category": "security"
+    }
+  ]
+}

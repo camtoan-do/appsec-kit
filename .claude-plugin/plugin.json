@@ -1,0 +1,8 @@
+{
+  "name": "appsec-kit",
+  "version": "0.2.0",
+  "description": "AppSec / DevSecOps workflow for Claude Code: scan and triage a repo (Gitleaks, Semgrep, Grype, Checkov), set up a hardened security CI pipeline, threat model with STRIDE, and learn the tools with a hands-on tutor and vulnerable lab.",
+  "author": { "name": "camtoando" },
+  "license": "MIT",
+  "keywords": ["security", "appsec", "devsecops", "sast", "sca", "secrets", "iac", "threat-modeling", "semgrep", "gitleaks", "grype", "trivy", "checkov", "github-actions"]
+}
